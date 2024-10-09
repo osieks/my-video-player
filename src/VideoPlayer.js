@@ -17,7 +17,7 @@ const VideoPlayer = () => {
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       >
-        <source src="A:\torrents\output_video.mp4" type="video/mp4" />
+        <source src="A:\output_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <button onClick={togglePlay}>
